@@ -121,6 +121,7 @@ a {
 
 .badge--small {
 	font-size: 1.6rem;
+	padding: 0.5rem 1.5rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -291,6 +292,7 @@ a {
 }
 
 /* ----- Cards ----- */
+
 .card {
 	border-radius: 7px;
 	box-shadow: 0 0 20px 10px #f3f3f3;
@@ -309,4 +311,77 @@ a {
 .card--secondary .card__header{
 	background: var(--color-secondary);
 	color: #fff;
+}
+
+.card--primary .badge--primary {
+	background: #126de4;
+}
+
+.card--secondary .badge--secondary {
+	background: #02cdf1;
+}
+
+/* ----- Plans ----- */
+
+.plan__name {
+	color: #fff;
+	font-size: 2.4rem;
+	font-weight: 500;
+	margin: 0;
+}
+
+.plan__price {
+	font-size: 6rem;
+}
+
+.plan__billing-cycle{
+	font-size: 2.4rem;
+	font-weight: 300;
+	margin-right: 1rem;
+	opacity: 0.8;
+}
+
+.plan .badge{
+	margin: 0;
+}
+
+.plan__description {
+	display: block;
+	font-size: 2rem;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.plan .list__items{
+	margin-bottom: 2rem;
+	letter-spacing: 1px;
+}
+
+.plan--popular .card__header{
+	position: relative;
+}
+
+.plan--popular .card__header::before{
+	content: url(../images/popular.svg);
+	display: inline-block;
+	width: 40px;
+	position: absolute;
+	top: -5px;
+	right: 5%;
+}
+
+@media screen and (min-width: 1024px) {
+	/* For Laptops and Desktops */
+	.plan__name {
+		font-size: 1.4rem;
+	}
+	.plan__price {
+		font-size: 5 rem;
+	}
+	.plan__billing-cycle {
+		font-size: 1.6rem;
+	}
+	.plan__description {
+		font-size: 1.7rem;
+	}
 }
