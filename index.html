@@ -14,17 +14,26 @@
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<p>Media Component</p>
-		<div class="media">
-			<div class="media__image">
-				<svg class="icon">
-					<use xlink:href="./images/sprite.svg#snap"></use>
-				</svg>
-			</div>
-			<div class="media__body">
-				<h3 class="media__title">Title Goes Here</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ex tempora totam dolore officia veritatis magnam, quos iste qui placeat!</p>
-			</div>
-		</div>
+		<p>Quote Component</p>
+		<blockquote class="quote">
+			<p class="quote__text">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nisi
+				temporibus culpa ratione vel! Ducimus maxime aliquam deserunt
+				praesentium eius.
+			</p>
+			<footer>
+				<div class="media">
+					<div class="media__image">
+						<svg class="icon icon--primary quote__line">
+							<use xlink:href="./images/sprite.svg#line"></use>
+						</svg>
+					</div>
+					<div class="media__body">
+						<h3 class="media__title quote__author">Name</h3>
+						<p class="quote__organization">Company Name</p>
+					</div>
+				</div>
+			</footer>
+		</blockquote>
 	</body>
 </html>
