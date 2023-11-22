@@ -456,3 +456,24 @@ a {
 		font-size: 1.6rem;
 	}
 }
+
+
+/* ----- Grids ------ */
+
+.grid {
+	display: grid;
+}
+
+@media screen and (min-width: 768px) {
+	/* For Tablets */
+	.grid--1x2 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	/* For Laptops and Desktops */
+	.grid--1x3 {
+		grid-template-columns: repeat(3, 1fr);
+	}
+} 
