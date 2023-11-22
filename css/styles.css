@@ -173,8 +173,17 @@ a {
 	width: 40px;
 }
 
+.icon--small {
+	height: 30px;
+	width: 30px;
+}
+
 .icon--primary {
 	fill: var(--color-primary);
+}
+
+.icon--white {
+	fill: #fff;
 }
 
 .icon-container {
@@ -185,6 +194,10 @@ a {
 	height: 64px;
 	justify-content: center;
 	width: 64px;
+}
+
+.icon-container--accent {
+	background: var(--color-accent);
 }
 
 /* ----- Buttons ----- */
@@ -300,16 +313,17 @@ a {
 	overflow: hidden;
 }
 
-.card__header, .card__body {
+.card__header,
+.card__body {
 	padding: 2rem 3rem;
 }
 
-.card--primary .card__header{
+.card--primary .card__header {
 	background: var(--color-primary);
 	color: #fff;
 }
 
-.card--secondary .card__header{
+.card--secondary .card__header {
 	background: var(--color-secondary);
 	color: #fff;
 }
@@ -335,14 +349,14 @@ a {
 	font-size: 6rem;
 }
 
-.plan__billing-cycle{
+.plan__billing-cycle {
 	font-size: 2.4rem;
 	font-weight: 300;
 	margin-right: 1rem;
 	opacity: 0.8;
 }
 
-.plan .badge{
+.plan .badge {
 	margin: 0;
 }
 
@@ -353,16 +367,16 @@ a {
 	letter-spacing: 1px;
 }
 
-.plan .list__items{
+.plan .list__items {
 	margin-bottom: 2rem;
 	letter-spacing: 1px;
 }
 
-.plan--popular .card__header{
+.plan--popular .card__header {
 	position: relative;
 }
 
-.plan--popular .card__header::before{
+.plan--popular .card__header::before {
 	content: url(../images/popular.svg);
 	display: inline-block;
 	width: 40px;
@@ -448,15 +462,14 @@ a {
 		font-size: 2rem;
 	}
 
-	.quote__author{
+	.quote__author {
 		font-size: 2.4rem;
 	}
 
-	.quote__organization{
+	.quote__organization {
 		font-size: 1.6rem;
 	}
 }
-
 
 /* ----- Grids ------ */
 
@@ -476,4 +489,41 @@ a {
 	.grid--1x3 {
 		grid-template-columns: repeat(3, 1fr);
 	}
+}
+
+/* ----- Testimonials ----- */
+
+.testimonial {
+	padding: 3rem;
+}
+
+.testimonial__image {
+	position: relative;
+}
+
+.testimonial__image > img {
+	width: 100%;
+}
+
+.testimonial__image > .icon-container {
+	position: absolute;
+	top: 3rem;
+	right: -32px;
+}
+
+.testimonial .grid {
+	align-items: center;
 } 
+
+
+@media screen and (min-width: 768px) {
+	/* For Tablets */
+	.testimonial .quote,
+	.testimonial .quote__author {
+		font-size: 2.4rem;
+	}
+
+	.testimonial .quote {
+		margin: 6rem;
+	}
+}
