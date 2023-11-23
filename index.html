@@ -14,17 +14,34 @@
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<p>Callout Component</p>
-		<div class="callout callout--primary">
-			<div class="grid grid--1x2">
-				<div class="callout__content">
-						<h2 class="callout__heading">
-							Title Goes Here
-						</h2>
-						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae error voluptatum non suscipit modi beatae.</p>
-				</div>
-				<a href="#" class="btn btn--secondary btn--stretched">Call To Action</a>
+		<p>Collapsible Component</p>
+		<div class="collapsible collapsible--expanded">
+			<header class="collapsible__header">
+				<h2 class="collapsible__heading">Heading</h2>
+				<span class="icon collapsible__chevron">
+					<img src="./images/chevron.svg" alt="" />
+				</span>
+			</header>
+			<div class="collapsible__content">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+				sit!
 			</div>
 		</div>
+	
+		<div class="collapsible collapsible--expanded">
+			<header class="collapsible__header">
+				<h2 class="collapsible__heading">Heading 2</h2>
+				<span class="icon collapsible__chevron">
+					<img src="./images/chevron.svg" alt="" />
+				</span>
+			</header>
+			<div class="collapsible__content">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+				sit!
+			</div>
+		</div>
+
+		<!-- Script for Collapsible Components -->
+		<script src="js/main.js"></script>
 	</body>
 </html>
