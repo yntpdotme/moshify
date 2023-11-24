@@ -36,6 +36,7 @@ h2,
 h3 {
 	color: var(--color-headings);
 	margin-bottom: 1rem;
+	line-height: 1.1;
 }
 
 h1 {
@@ -713,5 +714,34 @@ a {
 
 	.nav__item {
 		border: 0;
+	}
+}
+
+/* ----- Hero ----- */
+
+.hero__tagline {
+	color: #b9c3cf;
+	font-size: 2rem;
+	margin: 2rem 0 5rem;
+	letter-spacing: 1px;
+}
+
+.hero__image {
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	/* For Tablets and Wider Screens */
+	.hero {
+		/* 
+			- On Mobile we have grid 2x1 so need padding at top
+			- but on wider screen we have grid 1x2 and the hero image is tall enough it'll add nature padding there  
+		*/
+		padding-top: 0; 
+	}
+	
+	.hero__content {
+		text-align: left;
+		align-self: center;
 	}
 }
