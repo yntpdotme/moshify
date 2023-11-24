@@ -14,26 +14,35 @@
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<p>Hero Component</p>
-		<section class="block block--dark block--skewed-left hero">
-			<div class="container grid grid--1x2">
-				<header class="block__header hero__content">
-					<h1 class="block__heading">Heading Goes Here</h1>
-					<p class="hero__tagline">Tagline goes here</p>
-					<a href="" class="btn btn--accent btn--stretched">Get Started</a>
-				</header>
-				<picture>
-					<source
-						type="image/webp"
-						srcset="./images/banner.webp 1x, ./images/banner@2x.webp 2x"
-					/>
-					<source
-						type="image/png"
-						srcset="./images/banner.png 1x, ./images/banner@2x.png 2x"
-					/>
-					<img class="hero__image" src="./images/banner.png" alt="" />
-				</picture>
+		<p>Domain Block Component</p>
+		<section class="block container block-domain">
+			<header class="block__header">
+				<h2 class="block__heading">Heading of Domain Block</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, vitae!
+				</p>
+			</header>
+			<div class="input-group">
+				<input
+					type="text"
+					class="input"
+					placeholder="Enter domain name here..."
+				/>
+				<button class="btn btn--accent">
+					<svg class="icon icon--white">
+						<use xlink:href="./images/sprite.svg#search"></use>
+					</svg>
+					Text
+				</button>
 			</div>
+			<ul class="list block-domain__prices">
+				<li>Item 1</li>
+				<li><span class="badge badge--secondary">Item 2</span></li>
+				<li>Item 3</li>
+				<li>Item 4</li>
+				<li>Item 5</li>
+				<li>Item 6</li>
+			</ul>
 		</section>
 
 		<!-- Script for Collapsible Components -->
