@@ -14,32 +14,66 @@
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<p>Collapsible Component</p>
-		<div class="collapsible collapsible--expanded">
-			<header class="collapsible__header">
-				<h2 class="collapsible__heading">Heading</h2>
-				<span class="icon collapsible__chevron">
-					<img src="./images/chevron.svg" alt="" />
-				</span>
+		<p>Block Component - Light</p>
+		<section class="block container">
+			<header class="block__header">
+				<h2 class="block__heading">Heading</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+					perferendis.
+				</p>
 			</header>
-			<div class="collapsible__content">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-				sit!
+			<!-- Sample Card for Testing-->
+			<div style="width: 30%; padding: 1rem 1rem">
+				<div class="card">
+					<header class="card__header">Card Title</header>
+					<div class="card__body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
+						quo.
+					</div>
+				</div>
 			</div>
-		</div>
-	
-		<div class="collapsible collapsible--expanded">
-			<header class="collapsible__header">
-				<h2 class="collapsible__heading">Heading 2</h2>
-				<span class="icon collapsible__chevron">
-					<img src="./images/chevron.svg" alt="" />
-				</span>
-			</header>
-			<div class="collapsible__content">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-				sit!
+		</section>
+
+
+		<p>Block Component - Dark</p>
+		<section class="block block--dark">
+			<div class="container">
+				<header class="block__header">
+					<h2 class="block__heading">Heading</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+						perferendis.
+					</p>
+				</header>
 			</div>
-		</div>
+		</section>
+
+		<p>Block Component - Skewed Left</p>
+		<section class="block block--dark block--skewed-left">
+			<div class="container">
+				<header class="block__header">
+					<h2 class="block__heading">Heading</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+						perferendis.
+					</p>
+				</header>
+			</div>
+		</section>
+
+		<p>Block Component - Skewed Right</p>
+		<section class="block block--dark block--skewed-right">
+			<div class="container">
+				<header class="block__header">
+					<h2 class="block__heading">Heading</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+						perferendis.
+					</p>
+				</header>
+			</div>
+		</section>
 
 		<!-- Script for Collapsible Components -->
 		<script src="js/main.js"></script>

@@ -575,7 +575,6 @@ a {
 	}
 }
 
-
 /* ----- Collapsibles ------ */
 
 .collapsible__header {
@@ -607,4 +606,49 @@ a {
 .collapsible--expanded .collapsible__content {
 	max-height: 100vh;
 	opacity: 1;
+}
+
+/* ----- Blocks ----- */
+
+.block {
+	--padding-vertical: 6rem;
+	padding: var(--padding-vertical) 2rem;
+}
+
+.block__heading {
+	margin-top: 0;
+}
+
+.block__header {
+	/* 
+		In Block 
+			- Only Heading and Text below is centred 
+			- Rest everyting is aligned left. 
+			- So we encaluslated Heading and Text below in header element and applied styles in isolation.
+	*/
+	text-align: center;
+}
+
+.block--dark {
+	background: #000;
+	color: #7b858b;
+}
+
+.block--dark .block__heading {
+	color: #fff;
+}
+
+.block--skewed-left {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+	padding-bottom: calc(var(--padding-vertical) + 4rem);
+}
+
+.block--skewed-right {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+	padding-bottom: calc(var(--padding-vertical) + 4rem);
+}
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
 }
