@@ -647,6 +647,7 @@ a {
 			- So we encaluslated Heading and Text below in header element and applied styles in isolation.
 	*/
 	text-align: center;
+	margin-bottom: 4rem;
 }
 
 .block--dark {
