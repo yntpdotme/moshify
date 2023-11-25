@@ -14,52 +14,83 @@
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<p>Testimonial Block Component</p>
-		<section class="block container block-testimonals">
-			<header class="block__header">
-				<h2 class="block__heading">Heading Goes Here</h2>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-					nisi.
-				</p>
-			</header>
-			<div class="card testimonial">
-				<div class="grid grid--1x2">
-					<div class="testimonial__image">
-						<img
-							src="./images/testimonial.jpg"
-							alt="A happy, smiling customer"
-						/>
-						<span class="icon-container icon-container--accent">
-							<svg class="icon--small icon--white">
-								<use xlink:href="./images/sprite.svg#quotes"></use>
-							</svg>
-						</span>
+		<p>Footer Block Component</p>
+		<footer class="block block--dark footer">
+			<div class="container grid footer__sections">
+				<section class="collapsible footer__section">
+					<header class="collapsible__header">
+						<h2 class="collapsible__heading footer__heading">Heading 1</h2>
+						<svg class="icon icon--white collapsible__chevron">
+							<use xlink:href="./images/sprite.svg#chevron"></use>
+						</svg>
+					</header>
+					<div class="collapsible__content">
+						<ul class="list">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
 					</div>
+				</section>
 
-					<blockquote class="quote">
-						<p class="quote__text">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-							nisi temporibus culpa ratione vel! Ducimus maxime aliquam deserunt
-							praesentium eius.
-						</p>
-						<footer>
-							<div class="media">
-								<div class="media__image">
-									<svg class="icon icon--primary quote__line">
-										<use xlink:href="./images/sprite.svg#line"></use>
-									</svg>
-								</div>
-								<div class="media__body">
-									<h3 class="media__title quote__author">Name</h3>
-									<p class="quote__organization">Company Name</p>
-								</div>
-							</div>
-						</footer>
-					</blockquote>
-				</div>
+				<section class="collapsible footer__section">
+					<header class="collapsible__header">
+						<h2 class="collapsible__heading footer__heading">Heading 2</h2>
+						<svg class="icon icon--white collapsible__chevron">
+							<use xlink:href="./images/sprite.svg#chevron"></use>
+						</svg>
+					</header>
+					<div class="collapsible__content">
+						<ul class="list">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="collapsible footer__section">
+					<header class="collapsible__header">
+						<h2 class="collapsible__heading footer__heading">Heading 3</h2>
+						<svg class="icon icon--white collapsible__chevron">
+							<use xlink:href="./images/sprite.svg#chevron"></use>
+						</svg>
+					</header>
+					<div class="collapsible__content">
+						<ul class="list">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="collapsible footer__section">
+					<header class="collapsible__header">
+						<h2 class="collapsible__heading footer__heading">Heading 4</h2>
+						<svg class="icon icon--white collapsible__chevron">
+							<use xlink:href="./images/sprite.svg#chevron"></use>
+						</svg>
+					</header>
+					<div class="collapsible__content">
+						<ul class="list">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="footer__brand">
+					<a href="/" class="footer__logo"
+						><img src="./images/logo.svg" alt="Moshify Logo"
+					/></a>
+					<p class="footer__copyright">
+						Copyright &copy; by Mosh&nbsp;Hamedani
+					</p>
+				</section>
 			</div>
-		</section>
+		</footer>
 
 		<!-- Script for Collapsible Components -->
 		<script src="./js/main.js"></script>

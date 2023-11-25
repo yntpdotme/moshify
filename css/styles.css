@@ -676,7 +676,7 @@ a {
 	margin: 0 auto;
 }
 
-/* Navigation Bar */
+/* ----- Navigation Bar ----- */
 
 .nav {
 	align-items: center;
@@ -863,11 +863,102 @@ a {
 	}
 
 	.block-showcase__image {
-		width: auto;
 		max-width: 100%;
+		width: auto;
 	}
 
 	.block-showcase__content picture {
 		justify-self: end;
+	}
+}
+
+/* ----- Footer ----- */
+
+.footer {
+	background: #232323;
+}
+
+.footer__section {
+	border-bottom: 1px solid #393939;
+	padding: 2.5rem 2rem;
+}
+
+.footer__heading {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.footer__brand {
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.footer__brand img {
+	/* 
+		TODO: 
+			- Most of the time we are applying width: 100% to all images.
+			- So consider refactoring this and applying it to all images. 
+	*/
+	width: 100%;
+
+	/* To fix size on Mobile */
+	max-width: 230px;
+}
+
+.footer__copyright {
+	color: #fff;
+	font-size: 2.1rem;
+	margin: 0 auto;
+	opacity: 0.3;
+}
+
+.footer a {
+	color: #777;
+	transition: all 0.4s ease-out;
+}
+
+.footer a:hover {
+	color: #fff;
+}
+
+.footer__section .list {
+	margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+	/* For Tablets and Wider Screens */
+	.footer {
+    font-size: 1.5rem;
+  }
+	
+	.footer__sections {
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+		justify-items: center;
+	}
+
+	.footer__brand {
+		order: -1;
+		margin-top: 1rem;
+	}
+
+	.footer .collapsible__chevron {
+		display: none;
+	}
+
+	.footer .collapsible__content {
+		opacity: 1;
+		max-height: 100%;
+	}
+
+	.footer__copyright {
+		font-size: 1.5rem;
+	}
+
+	.footer__section {
+		border: 0;
+	}
+
+	.footer__heading {
+		font-size: 1.6rem;
 	}
 }
