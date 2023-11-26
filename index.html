@@ -79,10 +79,10 @@
 				</button>
 			</div>
 			<ul class="list block-domain__prices">
-				<li>.com $9</li>
-				<li><span class="badge badge--secondary">.sg $10</span></li>
-				<li>.space $11</li>
-				<li>.info $14</li>
+				<li>.in $12</li>
+				<li><span class="badge badge--secondary">.com $14</span></li>
+				<li>.dev $11</li>
+				<li>.info $13</li>
 				<li>.net $10</li>
 				<li>.xyz $10</li>
 			</ul>
@@ -107,9 +107,7 @@
 								<li class="list__items">10 GB SSD Storage</li>
 								<li class="list__items">24/7 Email Support</li>
 							</ul>
-							<button class="btn btn--block btn--outlined">
-								Call To Action
-							</button>
+							<button class="btn btn--block btn--outlined">Buy Now</button>
 						</div>
 					</div>
 				</div>
@@ -130,9 +128,7 @@
 								<li class="list__items">25 GB SSD Storage</li>
 								<li class="list__items">24/7 Email & Phone Support</li>
 							</ul>
-							<button class="btn btn--block btn--outlined">
-								Call To Action
-							</button>
+							<button class="btn btn--block btn--outlined">Buy Now</button>
 						</div>
 					</div>
 				</div>
@@ -155,9 +151,7 @@
 									24/7 Email, Phone, and Live-Chat Support
 								</li>
 							</ul>
-							<button class="btn btn--block btn--outlined">
-								Call To Action
-							</button>
+							<button class="btn btn--block btn--outlined">Buy Now</button>
 						</div>
 					</div>
 				</div>
@@ -167,7 +161,7 @@
 		<!-- Features Block -->
 		<section class="block container block-features">
 			<header class="block__header">
-				<h2 class="block__heading">Heading Goes Here</h2>
+				<h2 class="block__heading">Host on the Cloud to Keep Growing</h2>
 				<p>
 					Experience Unparalleled Scalability and Reliability with Moshify's
 					Cloud Hosting
@@ -370,7 +364,7 @@
 		</section>
 
 		<!-- Testimonials Block -->
-		<section class="block container block-testimonals">
+		<section class="block block-testimonals">
 			<header class="block__header">
 				<h2 class="block__heading">What our Customers are Saying</h2>
 				<p>
@@ -379,54 +373,67 @@
 				</p>
 			</header>
 
-			<div class="card testimonial">
-				<div class="grid grid--1x2">
-					<div class="testimonial__image">
-						<img
-							src="./images/testimonial.jpg"
-							alt="A happy, smiling customer"
-						/>
-						<span class="icon-container icon-container--accent">
-							<svg class="icon--small icon--white">
-								<use xlink:href="./images/sprite.svg#quotes"></use>
-							</svg>
-						</span>
+			<div class="container">
+				<div class="card testimonial">
+					<div class="grid grid--1x2">
+						<div class="testimonial__image">
+							<picture>
+								<source
+									type="image/jpg"
+									srcset="
+										./images/testimonial.jpg    1x,
+										./images/testimonial@2x.jpg 2x
+									"
+								/>
+								<img
+									class="hero__image"
+									src="./images/testimonial@2x.jpg"
+									alt="A happy, smiling customer"
+								/>
+							</picture>
+							<span class="icon-container icon-container--accent">
+								<svg class="icon--small icon--white">
+									<use xlink:href="./images/sprite.svg#quotes"></use>
+								</svg>
+							</span>
+						</div>
+						<blockquote class="quote">
+							<p class="quote__text">
+								Moshify has transformed my website performance. My pages load in
+								seconds, and my visitors are raving about the speed.
+							</p>
+							<footer>
+								<div class="media">
+									<div class="media__image">
+										<svg class="icon icon--primary quote__line">
+											<use xlink:href="./images/sprite.svg#line"></use>
+										</svg>
+									</div>
+									<div class="media__body">
+										<h3 class="media__title quote__author">John Smith</h3>
+										<p class="quote__organization">CEO, Acme Corporation</p>
+									</div>
+								</div>
+							</footer>
+						</blockquote>
 					</div>
-
-					<blockquote class="quote">
-						<p class="quote__text">
-							Moshify has transformed my website performance. My pages load in
-							seconds, and my visitors are raving about the speed.
-						</p>
-						<footer>
-							<div class="media">
-								<div class="media__image">
-									<svg class="icon icon--primary quote__line">
-										<use xlink:href="./images/sprite.svg#line"></use>
-									</svg>
-								</div>
-								<div class="media__body">
-									<h3 class="media__title quote__author">John Smith</h3>
-									<p class="quote__organization">CEO, Acme Corporation</p>
-								</div>
-							</div>
-						</footer>
-					</blockquote>
 				</div>
 			</div>
 		</section>
 
 		<!-- Callout Block -->
-		<div class="callout callout--primary">
-			<div class="grid grid--1x2">
-				<div class="callout__content">
-					<h2 class="callout__heading">Ready To Get Started?</h2>
-					<p>
-						Don't Let Your Website Lag Behind. Take the First Step Towards a
-						Faster, More Reliable Website: Get Started with Moshify
-					</p>
+		<div class="container">
+			<div class="callout callout--primary callout-signup">
+				<div class="grid grid--1x2">
+					<div class="callout__content">
+						<h2 class="callout__heading">Ready To Get Started?</h2>
+						<p>
+							Don't Let Your Website Lag Behind. Take the First Step Towards a
+							Faster, More Reliable Website: Get Started with Moshify
+						</p>
+					</div>
+					<a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
 				</div>
-				<a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
 			</div>
 		</div>
 
