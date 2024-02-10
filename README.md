@@ -1,4 +1,4 @@
-<a href="https://moshify-by-akash.netlify.app/">
+<a href="https://moshify-by-akash.netlify.app">
   <h1 align="center">Moshify</h1>
 </a>
 <p align="center">
@@ -8,7 +8,7 @@
 
 <a href="https://lighthouse-metrics.com/lighthouse/checks/165d2ed0-3341-4059-b2e0-5eb0cea78318/runs/65e59017-1d37-4120-862d-3ce4d398ef0b">
    <p align=center>
-    <img width = "700px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./images/performance-metrics.JPG">
+    <img width = "700px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./images/performance-metrics.png">
   <p>
 </a>
 
@@ -20,25 +20,32 @@
 
 <h2 align="center">
 
-[🚀 Explore Demo](https://moshify-by-akash.netlify.app/) &nbsp;&nbsp; [📂 Source Code](https://github.com/KadlagAkash/moshify)
+[🚀&nbsp; Explore Demo](https://moshify-by-akash.netlify.app) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [📂&nbsp; Source Code](https://github.com/KadlagAkash/moshify)
 
 </h2>
 <br>
 
 <p align="center">
-  <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#features"><strong>Features</strong></a> ·
-  <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#development-setup"><strong>Development Setup</strong></a> 
+  <a href="#introduction"><strong>Introduction</strong></a> 
+	·&nbsp;<a href="#features"><strong>Features</strong></a> 
+	·&nbsp;<a href="#tech-stack"><strong>Tech Stack</strong></a>
+	·&nbsp;<a href="#local-development"><strong>Development Setup</strong></a> 
 </p>
 <br>
 
-## Introduction
+## <a name="introduction">❄️&nbsp; Introduction</a>
 
 Moshify is an imaginary cloud hosting company, aiming to teach people how to build modern websites using HTML5 and CSS3. To learn how to build this website from scratch, you can check out **The Ultimate HTML and CSS course** on [**codewithmosh.com**](https://codewithmosh.com/p/the-ultimate-html-css).
-<br><br>
 
-## Features
+<a href="https://moshify-by-akash.netlify.app">
+   <p align=center>
+    <img width = "550px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./images/moshify-preview.png">
+  <p>
+</a>
+<br>
+
+
+## <a name="features">🔋&nbsp; Features</a>
 
 - **Innovative Design**: Meticulously crafted for an immersive experience.
 
@@ -57,7 +64,7 @@ Moshify is an imaginary cloud hosting company, aiming to teach people how to bui
 - **Deployment with Vercel**: Seamless and reliable deployment for global accessibility.
   <br><br>
 
-## Tech Stack
+## <a name="tech-stack">⚙️&nbsp; Tech Stack</a>
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) – structuring
 - [Modular CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) – Styling
@@ -67,12 +74,12 @@ Moshify is an imaginary cloud hosting company, aiming to teach people how to bui
 - [Vercel](https://vercel.com/) – deployments
   <br><br>
 
-## Development Setup
+## <a name="local-development"> 🖥️&nbsp;&nbsp; Local Development</a>
 
 1. **Clone the repository:**
 
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/KadlagAkash/moshify.git
    ```
 
 2. **Navigate to the project directory:**
@@ -98,16 +105,16 @@ Moshify is an imaginary cloud hosting company, aiming to teach people how to bui
    Visit [http://localhost:1234](http://localhost:1234) to explore Moshify in your local environment.
 
 6. **Build the project for production:**
-   `bash
-    npm run build
-    `
+   ```bash
+   npm run build
+   ```
 <br><br>
 
-## Usage Instructions
+## 📋&nbsp;&nbsp; Usage Instructions
 
 Simply navigate through Moshify to experience the artistry of web development. Unleash creativity and be inspired by the seamless design.
 <br><br>
 
-## Licensing Information
+## 🪪&nbsp;&nbsp; Licensing Information
 
 This project is licensed under the [MIT License](./LICENSE). Feel free to learn, add upon, and share my work!
